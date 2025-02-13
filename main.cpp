@@ -98,12 +98,21 @@ int main() {
 }
 
 /* Write your function definitions here */
-bool summable(const int *arr, const int num_terms, const int total) {
+bool summable(const int *arr, const int num_terms, const int total) 
+{
+    //Base case = Array is empty
+    if (sizeof(arr) == 0)
+    {
+        return false;
+    }
+
+    return ()
+}
+int armstrongIter(const int num_terms)
+{
 
 }
-int armstrongIter(const int num_terms) {
-
-}
-int armstrongRecur(const int num_terms) {
+int armstrongRecur(const int num_terms)
+{
 
 }
