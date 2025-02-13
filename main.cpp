@@ -112,7 +112,7 @@ bool summable(const int *arr, const int& sz, const int num_terms, const int tota
     }
     else 
     {
-        return (summable(arr), (num_terms - 1), total);
+        return (summable(arr), (sz - 1), (num_terms - 1), total);
 
     }
         
