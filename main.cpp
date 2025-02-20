@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 /* Write a recursive function ‘summable’ that takes an array of integers, a number of
  * terms to use, and a value to sum too. - summable([1,2,3,5], 3, 9) = true
  */
@@ -110,7 +111,7 @@ bool summable(const int *arr, const int& sz, const int num_terms, const int tota
     {
         return false;
     }
-    else 
+    else    
     {
         return (summable(arr), (sz - 1), (num_terms - 1), total);
 
@@ -119,7 +120,7 @@ bool summable(const int *arr, const int& sz, const int num_terms, const int tota
 }
 int armstrongIter(const int num_terms)
 {
-
+    int test;
 }
 int armstrongRecur(const int num_terms)
 {
